@@ -1,0 +1,77 @@
+:root {
+  --shadow:#da7d04;
+  --string:#DBEDF3;
+}
+
+body {
+  text-align: center;
+  background-image: url("images/guitarBack.jpg");
+  background-size:100%;
+}
+
+h1 {
+  font-size: 5rem;
+  color: var(--string);
+  font-family: "Arvo", cursive;
+  text-shadow: 4px 0 var(--shadow);
+
+}
+
+footer {
+  color: var(--shadow);
+  font-family:"Arvo", cursive;
+  font-size: 1.3rem;
+}
+
+.a {
+  background-image: linear-gradient(black 85.8%, orange);
+}
+
+.s {
+  background-image: linear-gradient(black 71.5%, orange);
+} 
+
+.d {
+  background-image: linear-gradient(black 57.2%, orange);
+}
+
+.j {
+  background-image: linear-gradient(black 42.8%, orange);
+}
+
+.k {
+  background-image: linear-gradient(black 28.5%, orange);
+}
+
+.l {
+  background-image: linear-gradient(black 14.2%, orange);
+} 
+
+.strings {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 var(--string);
+  opacity: 0.5;
+  transform: scale(1.1);
+}
+
+.string {
+  /*filter: grayscale(0.7);*/
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  width: 150px;
+  height: 150px;
+  outline: none;
+  border: 10px solid #a5acbe;
+  font-size: 5rem;
+  color:var(--string);
+  text-shadow: 4px 0 var(--shadow);
+  border-radius: 15px;
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
